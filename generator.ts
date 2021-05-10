@@ -1,9 +1,14 @@
 const fs = require("fs");
 const axios = require("axios");
 
+//#region Config
+
+var maxPosts = 20;
 var profileAPILink = "https://randomuser.me/api/?results=10&password=lower, 5-10&inc=name,email,login";
 var postsAndCommentsAPILink =
   "https://api.stackexchange.com/2.2/questions?order=desc&min=20&max=25&sort=votes&site=stackoverflow&filter=!9McUSqKnjnKWxX9(Das65CP2TajKKy10x)if0.4rTbjTcfjFseQc_bL";
+
+//#endregion
 
 //#region Interface
 
@@ -79,7 +84,7 @@ class Profile {
 class Post {
   id: Number;
   title: String;
-  author: Number;
+  author: String;
   body: String;
   upVoteCount: Number;
   downVoteCount: Number;
@@ -87,7 +92,7 @@ class Post {
   constructor(
     id: Number,
     title: String,
-    author: Number,
+    author: String,
     body: String,
     upVoteCount: Number,
     downVoteCount: Number
@@ -172,7 +177,7 @@ async function GetProfiles(): Promise<Profile[]> {
   return profiles;
 }
 
-async function GetPostsWithComments(maxUsers: number): Promise<[Post[], PostComment[]]> {
+async function GetPostsWithComments(profiles: Profile[]): Promise<[Post[], PostComment[]]> {
   let posts: Post[] = [];
   let comments: PostComment[] = [];
 
@@ -188,7 +193,7 @@ async function GetPostsWithComments(maxUsers: number): Promise<[Post[], PostComm
           new Post(
             question.question_id,
             question.title,
-            Math.round(Math.random() * maxUsers),
+            profiles[Math.round(Math.random() * profiles.length - 1)].name,
             question.body,
             question.up_vote_count,
             question.down_vote_count
@@ -224,7 +229,7 @@ async function GetPostsWithComments(maxUsers: number): Promise<[Post[], PostComm
           `\nUčitani svi komentari za post ${validPostCount}, ukupno ${commentsCount} komentara \n`
         );
 
-        if (validPostCount == 20) return false;
+        if (validPostCount == maxPosts) return false;
         ++validPostCount;
 
         return true;
@@ -252,11 +257,11 @@ async function main() {
   let profiles: Profile[] = await GetProfiles();
 
   console.log("Učitavam postove i komentare...");
-  let [posts, comments]: [Post[], PostComment[]] = await GetPostsWithComments(profiles.length);
+  let [posts, comments]: [Post[], PostComment[]] = await GetPostsWithComments(profiles);
 
   console.log("Zapisujem u bazu...\n");
 
-  fs.writeFile("./db.json", new Output(profiles, posts, comments).ToJSON(), ((err:any) => {
+  fs.writeFile("./db.json", new Output(profiles, posts, comments).ToJSON(), (err: any) => {
     if (err) {
       console.log("Greška pri zapisivanju u bazu");
       console.log(err);

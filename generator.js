@@ -36,6 +36,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var fs = require("fs");
 var axios = require("axios");
+//#region Config
+var maxPosts = 20;
 var profileAPILink = "https://randomuser.me/api/?results=10&password=lower, 5-10&inc=name,email,login";
 var postsAndCommentsAPILink = "https://api.stackexchange.com/2.2/questions?order=desc&min=20&max=25&sort=votes&site=stackoverflow&filter=!9McUSqKnjnKWxX9(Das65CP2TajKKy10x)if0.4rTbjTcfjFseQc_bL";
 //#endregion
@@ -116,7 +118,7 @@ function GetProfiles() {
         });
     });
 }
-function GetPostsWithComments(maxUsers) {
+function GetPostsWithComments(profiles) {
     return __awaiter(this, void 0, void 0, function () {
         var posts, comments;
         return __generator(this, function (_a) {
@@ -130,7 +132,7 @@ function GetPostsWithComments(maxUsers) {
                             var validPostCount = 1;
                             data.items.every(function (question, i) {
                                 if (question.answers.length != 0) {
-                                    posts.push(new Post(question.question_id, question.title, Math.round(Math.random() * maxUsers), question.body, question.up_vote_count, question.down_vote_count));
+                                    posts.push(new Post(question.question_id, question.title, profiles[Math.round(Math.random() * profiles.length - 1)].name, question.body, question.up_vote_count, question.down_vote_count));
                                     console.log("\nPost " + validPostCount + " u\u010Ditan..");
                                     console.log("\nUčitavam komentare...");
                                     var maxComments_1 = Math.round(Math.random() * 20);
@@ -144,7 +146,7 @@ function GetPostsWithComments(maxUsers) {
                                         return true;
                                     });
                                     console.log("\nU\u010Ditani svi komentari za post " + validPostCount + ", ukupno " + commentsCount_1 + " komentara \n");
-                                    if (validPostCount == 20)
+                                    if (validPostCount == maxPosts)
                                         return false;
                                     ++validPostCount;
                                     return true;
@@ -175,7 +177,7 @@ function main() {
                 case 1:
                     profiles = _b.sent();
                     console.log("Učitavam postove i komentare...");
-                    return [4 /*yield*/, GetPostsWithComments(profiles.length)];
+                    return [4 /*yield*/, GetPostsWithComments(profiles)];
                 case 2:
                     _a = _b.sent(), posts = _a[0], comments = _a[1];
                     console.log("Zapisujem u bazu...\n");
