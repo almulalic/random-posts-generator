@@ -1,91 +1,91 @@
 {
-  "profiles": [
+  "profile": [
     {
       "id": 0,
-      "name": "Noud",
-      "surname": "Siereveld",
-      "username": "tinyfrog205",
-      "email": "noud.siereveld@example.com",
-      "password": "zyvfuw"
+      "name": "Eliza",
+      "surname": "Wood",
+      "username": "bluebutterfly280",
+      "email": "eliza.wood@example.com",
+      "password": "syixd"
     },
     {
       "id": 1,
-      "name": "Paula",
-      "surname": "Lopez",
-      "username": "beautifulfish847",
-      "email": "paula.lopez@example.com",
-      "password": "waxwftm"
+      "name": "Ege",
+      "surname": "Akbulut",
+      "username": "smallgoose386",
+      "email": "ege.akbulut@example.com",
+      "password": "ljblbdlg"
     },
     {
       "id": 2,
-      "name": "Paige",
-      "surname": "Zhang",
-      "username": "orangerabbit187",
-      "email": "paige.zhang@example.com",
-      "password": "bbpclo"
+      "name": "Enedina",
+      "surname": "Rodrigues",
+      "username": "smallgorilla142",
+      "email": "enedina.rodrigues@example.com",
+      "password": "lgverti"
     },
     {
       "id": 3,
-      "name": "Johnny",
-      "surname": "Hawkins",
-      "username": "whiteswan309",
-      "email": "johnny.hawkins@example.com",
-      "password": "apxfd"
+      "name": "Tristan",
+      "surname": "Harcourt",
+      "username": "browngorilla528",
+      "email": "tristan.harcourt@example.com",
+      "password": "tnfsfpf"
     },
     {
       "id": 4,
-      "name": "Fred",
-      "surname": "Große",
-      "username": "brownostrich605",
-      "email": "fred.grosse@example.com",
-      "password": "shecxi"
+      "name": "Volkan",
+      "surname": "Uluhan",
+      "username": "yellowbird260",
+      "email": "volkan.uluhan@example.com",
+      "password": "rbzdy"
     },
     {
       "id": 5,
-      "name": "Marcus",
-      "surname": "Jones",
-      "username": "greenswan864",
-      "email": "marcus.jones@example.com",
-      "password": "qvrnkgk"
+      "name": "Gabin",
+      "surname": "Bertrand",
+      "username": "sadleopard261",
+      "email": "gabin.bertrand@example.com",
+      "password": "lvrjkxipr"
     },
     {
       "id": 6,
-      "name": "Alisa",
-      "surname": "Luoma",
-      "username": "brownmeercat631",
-      "email": "alisa.luoma@example.com",
-      "password": "quiprjqso"
+      "name": "Angeles",
+      "surname": "Diez",
+      "username": "heavykoala743",
+      "email": "angeles.diez@example.com",
+      "password": "lhufva"
     },
     {
       "id": 7,
-      "name": "Javier",
-      "surname": "Rivera",
-      "username": "browntiger975",
-      "email": "javier.rivera@example.com",
-      "password": "ejuymvp"
+      "name": "Dâni",
+      "surname": "Ramos",
+      "username": "purpleduck988",
+      "email": "dani.ramos@example.com",
+      "password": "xhtqmuorf"
     },
     {
       "id": 8,
-      "name": "Latife",
-      "surname": "Tazegül",
-      "username": "lazykoala514",
-      "email": "latife.tazegul@example.com",
-      "password": "rkfdv"
+      "name": "Mestan",
+      "surname": "Karabulut",
+      "username": "yellowfish135",
+      "email": "mestan.karabulut@example.com",
+      "password": "ehcpq"
     },
     {
       "id": 9,
-      "name": "Virginia",
-      "surname": "Borchardt",
-      "username": "beautifulpanda638",
-      "email": "virginia.borchardt@example.com",
-      "password": "iptpyrcxbp"
+      "name": "بنیامین",
+      "surname": "رضاییان",
+      "username": "heavycat561",
+      "email": "bnymyn.rdyyn@example.com",
+      "password": "uksqbgbvi"
     }
   ],
   "posts": [
     {
       "id": 561,
       "title": "How to use combinations of sets as test data",
-      "author": "Marcus",
+      "author": 0,
       "body": "<p>I would like to test a function with a tuple from a set of fringe cases and normal values. For example, while testing a function which returns <code>true</code> whenever given three lengths that form a valid triangle, I would have specific cases, negative / small / large numbers, values close-to being overflowed, etc.; what is more, main aim is to generate combinations of these values, <em>with</em> or <em>without</em> repetition, in order to get a set of test data.</p>\n\n<pre><code>(inf,0,-1), (5,10,1000), (10,5,5), (0,-1,5), (1000,inf,inf),\n...\n</code></pre>\n\n<blockquote>\n  <p><em>As a note: I actually know the answer to this, but it might be helpful for others, and a challenge for people here! --will post my answer later on.</em></p>\n</blockquote>\n",
       "upVoteCount": 27,
       "downVoteCount": 2
@@ -93,7 +93,7 @@
     {
       "id": 1042,
       "title": "Why doesn&#39;t SQL Full Text Indexing return results for words containing #?",
-      "author": "Javier",
+      "author": 9,
       "body": "<p>For instance, my query is like the following using SQL Server 2005:</p>\n\n<pre><code>SELECT * FROM Table WHERE FREETEXT(SearchField, 'c#') \n</code></pre>\n\n<p>I have a full text index defined to use the column SearchField which returns results when using:</p>\n\n<pre><code>SELECT * FROM Table WHERE SearchField LIKE '%c#%'\n</code></pre>\n\n<p>I believe # is a special letter, so how do I allow FREETEXT to work correctly for the query above?</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -101,7 +101,7 @@
     {
       "id": 1451,
       "title": "What is the best way to handle multiple permission types?",
-      "author": "Marcus",
+      "author": 7,
       "body": "<p>I often encounter the following scenario where I need to offer many different types of permissions. I primarily use ASP.NET / VB.NET with SQL Server 2000.</p>\n<p><strong>Scenario</strong></p>\n<p>I want to offer a dynamic permission system that can work on different parameters. Let's say that I want to give either a department or just a specific person access to an application. And pretend that we have a number of applications that keeps growing.</p>\n<p>In the past, I have chosen one of the following two ways that I know to do this.</p>\n<ol>\n<li><p>Use a single permission table with special columns that are used for\ndetermining a how to apply the parameters. The special columns in\nthis example are <code>TypeID</code> and <code>TypeAuxID</code>. The SQL would look something\nlike this.</p>\n<pre><code>SELECT COUNT(PermissionID)\nFROM application_permissions\nWHERE\n(TypeID = 1 AND TypeAuxID = @UserID) OR\n(TypeID = 2 AND TypeAuxID = @DepartmentID)\nAND ApplicationID = 1\n</code></pre>\n</li>\n<li><p>Use a mapping table for each type of permission, then joining them\nall together.</p>\n<pre><code>SELECT COUNT(perm.PermissionID)\nFROM application_permissions perm\nLEFT JOIN application_UserPermissions emp\nON perm.ApplicationID = emp.ApplicationID\nLEFT JOIN application_DepartmentPermissions dept\nON perm.ApplicationID = dept.ApplicationID\nWHERE q.SectionID=@SectionID\n  AND (emp.UserID=@UserID OR dept.DeptID=@DeptID OR\n (emp.UserID IS NULL AND dept.DeptID IS NULL)) AND ApplicationID = 1\nORDER BY q.QID ASC\n</code></pre>\n</li>\n</ol>\n<p><strong>My Thoughts</strong></p>\n<p>I hope that the examples make sense. I cobbled them together.</p>\n<p>The first example requires less work, but neither of them feel like the best answer. Is there a better way to handle this?</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -109,7 +109,7 @@
     {
       "id": 1829,
       "title": "How do I make a menu that does not require the user to press [enter] to make a selection?",
-      "author": "Johnny",
+      "author": 3,
       "body": "<p>I've got a menu in Python. That part was easy. I'm using <code>raw_input()</code> to get the selection from the user. </p>\n\n<p>The problem is that <code>raw_input</code> (and input) require the user to press <kbd>Enter</kbd> after they make a selection. Is there any way to make the program act immediately upon a keystroke? Here's what I've got so far:</p>\n\n<pre><code>import sys\nprint \"\"\"Menu\n1) Say Foo\n2) Say Bar\"\"\"\nanswer = raw_input(\"Make a selection&gt; \")\n\nif \"1\" in answer: print \"foo\"\nelif \"2\" in answer: print \"bar\"\n</code></pre>\n\n<p>It would be great to have something like</p>\n\n<pre><code>print menu\nwhile lastKey = \"\":\n    lastKey = check_for_recent_keystrokes()\nif \"1\" in lastKey: #do stuff...\n</code></pre>\n",
       "upVoteCount": 27,
       "downVoteCount": 2
@@ -117,7 +117,7 @@
     {
       "id": 1908,
       "title": "How to map a latitude/longitude to a distorted map?",
-      "author": "Javier",
+      "author": 8,
       "body": "<p>I have a bunch of latitude/longitude pairs that map to known x/y coordinates on a (geographically distorted) map.</p>\n\n<p>Then I have one more latitude/longitude pair. I want to plot it on the map as best is possible. How do I go about doing this?</p>\n\n<p>At first I decided to create a system of linear equations for the three nearest lat/long points and compute a transformation from these, but this doesn't work well at all. Since that's a linear system, I can't use more nearby points either.</p>\n\n<p>You can't assume North is up: all you have is the existing lat/long->x/y mappings.</p>\n\n<p>EDIT: it's not a Mercator projection, or anything like that. It's arbitrarily distorted for readability (think subway map). I want to use only the nearest 5 to 10 mappings so that distortion on other parts of the map doesn't affect the mapping I'm trying to compute.</p>\n\n<p>Further, the entire map is in a very small geographical area so there's no need to worry about the globe--flat-earth assumptions are good enough.</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -125,7 +125,7 @@
     {
       "id": 2214,
       "title": "What&#39;s the best way to implement BDD/TDD in .NET 2.0?",
-      "author": "Virginia",
+      "author": 5,
       "body": "<p>I'm looking to add a testing suite to my application, however I can't move to the newer testing frameworks for .NET 3.5. </p>\n\n<p>Does anyone have a suggestion about good testing frameworks to use?</p>\n",
       "upVoteCount": 27,
       "downVoteCount": 2
@@ -133,7 +133,7 @@
     {
       "id": 2711,
       "title": "What sites offer free, quality web site design templates?",
-      "author": "Alisa",
+      "author": 1,
       "body": "<p>Let's aggregate a list of free quality web site design templates. There are a million of these sites out there, but most are repetitive and boring. </p>\n\n<p>I'll start with <a href=\"http://www.freecsstemplates.org/\" rel=\"noreferrer\">freeCSStemplates.org</a></p>\n\n<p>I also think other sites should follow some sort of standards, for example here are freeCSStemplates standards</p>\n\n<ul>\n<li>Released for FREE under the Creative Commons Attribution 2.5 license </li>\n<li>Very lightweight in terms of images </li>\n<li>Tables-free (ie. they use no tables for layout purposes) </li>\n<li>W3C standards compliant and valid (XHTML Strict) </li>\n<li>Provided with public domain photos, generously provided by PDPhoto.org and Wikimedia Commons </li>\n</ul>\n",
       "upVoteCount": 27,
       "downVoteCount": 2
@@ -141,7 +141,7 @@
     {
       "id": 2780,
       "title": "Converting ARBG to RGB with alpha blending",
-      "author": "Marcus",
+      "author": 5,
       "body": "<p>Let's say that we have an ARGB color:</p>\n\n<pre><code>Color argb = Color.FromARGB(127, 69, 12, 255); //Light Urple.\n</code></pre>\n\n<p>When this is painted on top of an existing color, the colors will blend. So when it is blended with white, the resulting color is <code>Color.FromARGB(255, 162, 133, 255);</code></p>\n\n<p>The solution should work like this:</p>\n\n<pre><code>Color blend = Color.White; \nColor argb = Color.FromARGB(127, 69, 12, 255); //Light Urple.      \nColor rgb = ToRGB(argb, blend); //Same as Color.FromARGB(255, 162, 133, 255);\n</code></pre>\n\n<p>What is <code>ToRGB</code>'s implementation?      </p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -149,7 +149,7 @@
     {
       "id": 4347,
       "title": "Where is a good place to start programming GUIs for windows?",
-      "author": "Javier",
+      "author": 6,
       "body": "<p>I have experience writing console and network client/server applications in C and C++, but I know next to nothing about using the win32 visual API, MFC, Qt, wxWidgets, etc.  Where is a good place to start, and what method should I specialize in, so as to be future ready and robust?</p>\n",
       "upVoteCount": 28,
       "downVoteCount": 3
@@ -157,7 +157,7 @@
     {
       "id": 4850,
       "title": "C# and Arrow Keys",
-      "author": "Latife",
+      "author": 5,
       "body": "<p>I am new to C# and am doing some work in an existing application. I have a DirectX viewport that has components in it that I want to be able to position using arrow keys.</p>\n\n<p>Currently I am overriding ProcessCmdKey and catching arrow input and send an OnKeyPress event. This works, but I want to be able to use modifiers(<strong><kbd>ALT</kbd>+<kbd>CTRL</kbd>+<kbd>SHIFT</kbd></strong>). As soon as I am holding a modifier and press an arrow no events are triggered that I am listening to.</p>\n\n<p>Does anyone have any ideas or suggestions on where I should go with this?</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -165,7 +165,7 @@
     {
       "id": 5527,
       "title": "Is there a real benefit of using J#?",
-      "author": "Virginia",
+      "author": 3,
       "body": "<p>I just saw a <a href=\"https://stackoverflow.com/questions/5516/what-happened-to-all-of-the-java-developers-how-can-i-get-started-in-net#5522\">comment of suggesting J#</a>, and it made me wonder... is there a real, beneficial use of J# over Java?  So, my feeling is that the only reason you would even consider using J# is that management has decreed that the company should jump on the Java bandwagon... and the .NET bandwagon.  If you use J#, you are effectively losing the biggest benefit of picking Java... rich cross platform support.  Sure there is Mono, but it's not as richly supported or as full featured right?  I remember hearing Forms are not fully (perhaps at all) supported.</p>\n\n<p>I'm not trying to bash .NET here, I'm just saying, if you are going to go the Microsoft route, why not just use C#?  If you are going to go the Java route, why would J# enter the picture?</p>\n\n<p>I'm hoping to find some real world cases here, so please especially respond if you've ACTUALLY used J# in a REAL project, and why.</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -173,7 +173,7 @@
     {
       "id": 5916,
       "title": "How do you feel about code folding?",
-      "author": "Virginia",
+      "author": 4,
       "body": "<p>For those of you in the Visual Studio environment, how do you feel about wrapping any of your code in #regions?  (or if any other IDE has something similar...)</p>\n",
       "upVoteCount": 30,
       "downVoteCount": 5
@@ -181,7 +181,7 @@
     {
       "id": 8042,
       "title": "Extension interface patterns",
-      "author": "Javier",
+      "author": 0,
       "body": "<p>The new extensions in .Net 3.5 allow functionality to be split out from interfaces.</p>\n\n<p>For instance in .Net 2.0</p>\n\n<pre><code>public interface IHaveChildren {\n    string ParentType { get; }\n    int ParentId { get; }\n\n    List&lt;IChild&gt; GetChildren()\n}\n</code></pre>\n\n<p>Can (in 3.5) become:</p>\n\n<pre><code>public interface IHaveChildren {\n    string ParentType { get; }\n    int ParentId { get; }\n}\n\npublic static class HaveChildrenExtension {\n    public static List&lt;IChild&gt; GetChildren( this IHaveChildren ) {\n        //logic to get children by parent type and id\n        //shared for all classes implementing IHaveChildren \n    }\n}\n</code></pre>\n\n<p>This seems to me to be a better mechanism for many interfaces.  They no longer need an abstract base to share this code, and functionally the code works the same. This could make the code more maintainable and easier to test.</p>\n\n<p>The only disadvantage being that an abstract bases implementation can be virtual, but can that be worked around (would an instance method hide an extension method with the same name? would it be confusing code to do so?)</p>\n\n<p>Any other reasons not to regularly use this pattern?</p>\n\n<hr>\n\n<p>Clarification:</p>\n\n<p>Yeah, I see the tendency with extension methods is to end up with them everywhere. I'd be particularly careful having any on .Net value types without a great deal of peer review (I think the only one we have on a string is a <code>.SplitToDictionary()</code> - similar to <code>.Split()</code> but taking a key-value delimiter too)</p>\n\n<p>I think there's a whole best practice debate there ;-)</p>\n\n<p>(Incidentally: DannySmurf, your PM sounds scary.)</p>\n\n<p>I'm specifically asking here about using extension methods where previously we had interface methods.</p>\n\n<hr>\n\n<p>I'm trying to avoid lots of levels of abstract base classes - the classes implementing these models mostly already have base classes. I think this model could be more maintainable and less overly-coupled than adding further object hierarchies.</p>\n\n<p>Is this what MS has done to IEnumerable and IQueryable for Linq?</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -189,7 +189,7 @@
     {
       "id": 11500,
       "title": "Speeding up an ASP.Net Web Site or Application",
-      "author": "Fred",
+      "author": 2,
       "body": "<p>I have an Ajax.Net enabled ASP.Net 2.0 web site. Hosting for both the site and the database are out of my control as is the database's schema. In testing on hardware I do control the site performs well however on the client's hardware, there are noticeable delays when reloading or changing pages. </p>\n\n<p>What I would like to do is make my application as compact and speedy as possible when I deliver it. One idea is to set expiration dates for all of the site's static resources so they aren't recalled on page loads. By resources I mean images, linked style sheets and JavaScript source files. Is there an easy way to do this?</p>\n\n<p>What other ways are there to optimize a .Net web site?</p>\n\n<p>UPDATE: \nI've run YSlow on the site and the areas where I am getting hit the hardest are in the number of JavaScript and Style Sheets being loaded (23 JS files and 5 style sheets). All but one (the main style sheet) has been inserted by Ajax.net and Asp. Why so many? </p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -197,7 +197,7 @@
     {
       "id": 14389,
       "title": "Regex and unicode",
-      "author": "Javier",
+      "author": 7,
       "body": "<p>I have a script that parses the filenames of TV episodes (show.name.s01e02.avi for example), grabs the episode name (from the www.thetvdb.com API) and automatically renames them into something nicer (Show Name - [01x02].avi)</p>\n\n<p>The script works fine, that is until you try and use it on files that have Unicode show-names (something I never really thought about, since all the files I have are English, so mostly pretty-much all fall within <code>[a-zA-Z0-9'\\-]</code>)</p>\n\n<p>How can I allow the regular expressions to match accented characters and the likes? Currently the regex's config section looks like..</p>\n\n<pre><code>config['valid_filename_chars'] = \"\"\"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&amp;*()_+=-[]{}\"'.,&lt;&gt;`~? \"\"\"\nconfig['valid_filename_chars_regex'] = re.escape(config['valid_filename_chars'])\n\nconfig['name_parse'] = [\n    # foo_[s01]_[e01]\n    re.compile('''^([%s]+?)[ \\._\\-]\\[[Ss]([0-9]+?)\\]_\\[[Ee]([0-9]+?)\\]?[^\\\\/]*$'''% (config['valid_filename_chars_regex'])),\n    # foo.1x09*\n    re.compile('''^([%s]+?)[ \\._\\-]\\[?([0-9]+)x([0-9]+)[^\\\\/]*$''' % (config['valid_filename_chars_regex'])),\n    # foo.s01.e01, foo.s01_e01\n    re.compile('''^([%s]+?)[ \\._\\-][Ss]([0-9]+)[\\.\\- ]?[Ee]([0-9]+)[^\\\\/]*$''' % (config['valid_filename_chars_regex'])),\n    # foo.103*\n    re.compile('''^([%s]+)[ \\._\\-]([0-9]{1})([0-9]{2})[\\._ -][^\\\\/]*$''' % (config['valid_filename_chars_regex'])),\n    # foo.0103*\n    re.compile('''^([%s]+)[ \\._\\-]([0-9]{2})([0-9]{2,3})[\\._ -][^\\\\/]*$''' % (config['valid_filename_chars_regex'])),\n]\n</code></pre>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -205,7 +205,7 @@
     {
       "id": 14582,
       "title": "Can I make Subversion + TortoiseSVN case-insensitive for Windows?",
-      "author": "Johnny",
+      "author": 6,
       "body": "<p>I've been using Subversion for code control with TortoiseSVN to interface with the server for the past few months, and in general it's been going great!  However, occasionally my FoxPro IDE will change the case of a file extension without warning where \"<em>program.prg</em>\" becomes \"<em>program.<strong>PRG</em></strong>\")  TortoiseSVN apparently takes this to mean the first file was removed, becoming flagged as \"missing\" and the second name comes up as \"non-versioned\", wreaking havoc on my ability to track changes to the file.   I understand that Subversion has it origins in the case-sensitive world of *nix but, is there any way to control this behavior in either Subversion or TortoiseSVN to be file name case-insensitive when used with Windows?</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -213,7 +213,7 @@
     {
       "id": 15681,
       "title": "Developer Setup for Starting Out with Cocoa/Mac Programming",
-      "author": "Latife",
+      "author": 7,
       "body": "<p>I'd like to start experimenting with Cocoa and programming for Mac OSX.  I'm not terribly concerned with Objective C syntax/constructs/bheaviors at this point, but more curious as to an efficient setup on in terms of an editor and/or IDE that will get me going quickly.  Is there any IDE even remotely similar to Visual Studio (since that's where I've spent most of my time over the last 7 years) in terms of it's solution/project concept?  Any other tools, tips, suggestions and/or resources to get up and experimenting quickly?  </p>\n\n<p>I'd like to avoid a lot of the intro stuff and get into things like \"If you want to create an Mac desktop application, you can use <i>Acme IDE</i> and set up your project like this.\" </p>\n\n<hr>\n\n<p>I was afraid Xcode was going to be the answer! :P  I tried playing around with that -- literally just getting it off the DVD and just diving in with no idea what to expect (before I even knew that you used Objective C as the language).  I figured, the wise guy that I am, that I could just sort of fumble around and get a simple app working ... wrong.  </p>\n\n<p>@Andrew - Thanks for the insight on those config settings.  Based on my Xcode first impression, I think those may help.</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -221,7 +221,7 @@
     {
       "id": 16113,
       "title": "Software for Webserver Log Analysis?",
-      "author": "Alisa",
+      "author": 9,
       "body": "<p>Can I get some recommendations (preferably with some reasons) for good log analysis software for Apache 2.2 access log files?</p>\n\n<p>I have heard of <a href=\"http://www.webalizer.org/\" rel=\"noreferrer\">Webalizer</a> and <a href=\"http://awstats.sourceforge.net/\" rel=\"noreferrer\">AWStats</a>, but have never really used any of them, and would like to know:</p>\n\n<ul>\n<li>What they can do</li>\n<li>Why they are useful</li>\n<li>Interesting uses for them</li>\n</ul>\n\n<p>Any and all comments and thoughts are welcome.</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -229,7 +229,7 @@
     {
       "id": 20034,
       "title": "Is Project Darkstar Realistic?",
-      "author": "Marcus",
+      "author": 9,
       "body": "<p><a href=\"http://en.wikipedia.org/wiki/Project_Darkstar\" rel=\"nofollow noreferrer\">Project Darkstar</a> was the topic of the monthly <a href=\"http://www.javasig.com/meeting/home.xhtml\" rel=\"nofollow noreferrer\">JavaSIG</a> meeting down at the Google offices in NYC last night.  For those that don't know (probably everyone), Project Darkstar is a framework for massively multiplayer online games that attempts to take care of all of the \"hard stuff.\"  The basic idea is that you write your game server logic in such a way that all operations are broken up into tiny tasks.  You pass these tasks to the Project Darkstar framework which handles distributing them to a specific node in the cluster, any concurrency issues, and finally persisting the data.</p>\n\n<p>Apparently doing this kind of thing is a much different problem for video games than it is for enterprise applications.  Jim Waldo, who gave the lecture, claims that MMO games have a DB read/write ratio of 50/50, whereas enterprise apps are more like 90% read, 10% write.  He also claims that most existing MMOs keep everything in memory exlcusively, and only dump to a DB every 6 hours of so.  This means if a server goes down, you would lose all of the work since the last DB dump.</p>\n\n<p>Now, the project itself sounds really cool, but I don't think the industry will accept it.  First, you have to write your server code in Java.  The client code can be written in anything (Jim claims ActionScript 3 is the most popular, follow by C++), but the server stuff has to be Java.  Sounds good to me, but I really get the impression that everyone in the games industry hates Java.</p>\n\n<p>Second, unlike other industries where developers prefer to use existing frameworks and libraries, the guys in the games industry seem to like to write everything themselves.  Not only that, they like to rewrite everything for every new game they produce.  Things are starting to change where developers are using Havok for physics, Unreal Engine 3 as their platform, etc., but for the most part it looks like everything is still proprietary.</p>\n\n<p>So, are the guys at Project Darkstar just wasting their time?  Can a general framework like this really work for complex games with the performance that is required?  Even if it does work, are game companies willing to use it?</p>\n",
       "upVoteCount": 27,
       "downVoteCount": 2
@@ -237,7 +237,7 @@
     {
       "id": 20675,
       "title": "ASP/VBScript - Int() vs CInt()",
-      "author": "Paula",
+      "author": 1,
       "body": "<p>What is the difference in ASP/VBScript between <code>Int()</code> and <code>CInt()</code>?</p>\n",
       "upVoteCount": 25,
       "downVoteCount": 0
@@ -406,6 +406,13 @@
       "downVoteCount": 0
     },
     {
+      "id": 3423,
+      "postId": 2214,
+      "body": "<p>I've had great success using <a href=\"http://www.nunit.org\" rel=\"nofollow noreferrer\">NUnit</a> as well.</p>\n\n<p>I've also used <a href=\"http://www.nmock.org\" rel=\"nofollow noreferrer\">NMock</a> when the need arose for mock objects. As an added bonus, the factory for creating your mock objects is called the Mockery.</p>\n\n<p>To facilitate the running of unit tests, I've used <a href=\"http://testdriven.net\" rel=\"nofollow noreferrer\">TestDriven.NET</a> to run unit tests as I coded. Also, I've used <a href=\"http://ccnet.thoughtworks.com\" rel=\"nofollow noreferrer\">Cruise Control .NET</a> to watch SVN and check that every new commit builds and passes all unit tests.</p>\n",
+      "upVoteCount": 5,
+      "downVoteCount": 1
+    },
+    {
       "id": 2713,
       "postId": 2711,
       "body": "<p><a href=\"http://www.csszengarden.com/\" rel=\"nofollow noreferrer\">http://www.csszengarden.com/</a></p>\n\n<p>The images are not Creative Commons, but the CSS is.</p>\n",
@@ -432,13 +439,6 @@
       "body": "<p><a href=\"http://www.opensourcetemplates.org/\" rel=\"nofollow noreferrer\">http://www.opensourcetemplates.org/</a> has nice designs, just not enough selection.</p>\n",
       "upVoteCount": 0,
       "downVoteCount": 0
-    },
-    {
-      "id": 2763,
-      "postId": 2711,
-      "body": "<p>Check out:</p>\n\n<ul>\n<li><a href=\"http://www.oswd.org/\" rel=\"noreferrer\">Open Source Web Designs</a></li>\n<li><a href=\"http://cssremix.com/\" rel=\"noreferrer\">CSS Remix</a></li>\n<li><a href=\"http://bestwebgallery.com/\" rel=\"noreferrer\">Best Web Gallery</a></li>\n<li><a href=\"http://www.cssbased.com/\" rel=\"noreferrer\">CSS Based</a></li>\n<li><a href=\"http://www.cssbeauty.com/gallery/\" rel=\"noreferrer\">CSS Beauty</a></li>\n<li><a href=\"http://www.my3w.org\" rel=\"noreferrer\">CSS Genius</a></li>\n</ul>\n",
-      "upVoteCount": 13,
-      "downVoteCount": 1
     },
     {
       "id": 2789,
@@ -490,6 +490,41 @@
       "downVoteCount": 0
     },
     {
+      "id": 8819,
+      "postId": 4347,
+      "body": "<p>For a simple starting point to get your head around the \"event-driven\" nature basically all frameworks are created around look at <a href=\"http://www.fltk.org\" rel=\"nofollow noreferrer\">FLTK</a>.</p>\n\n<p>Here are some quick starting videos <a href=\"http://seriss.com/people/erco/fltk-videos/\" rel=\"nofollow noreferrer\">Link</a></p>\n\n<p>For professional use I'd recommend Qt, expensive but often worth it in commercial situations.</p>\n",
+      "upVoteCount": 0,
+      "downVoteCount": 0
+    },
+    {
+      "id": 8854,
+      "postId": 4347,
+      "body": "<p>Since you are already familiar with C and C++ I would recommend learning how to write a simple Windows GUI app using Charles Petzold's book.  It will give you the fundamental understanding of how Windows works.  It's good to understand that most everything that you see is a window (a button is a window for example) and that these windows respond to messages.  I wouldnt' spend a lot of time on this though and you don't necessarily need to do this first if you are going to chose WPF.  I just think it's good to have a basic understanding of this.</p>\n\n<p>There was a good podcast recently on .Net Rocks called <a href=\"http://www.dotnetrocks.com/default.aspx?showNum=363\" rel=\"nofollow noreferrer\">\"Kate Gregory Develops in C++ for Vista!\"</a> on there she recommends that someone starting out now should not use/learn MFC (even though it has been recently updated).</p>\n\n<p>As far as getting ready for the future you need to learn WPF, but it isn't complete yet, so depending on the kinds of client side apps you want to create, you will probably need to learn WinForms.  The majority of people aren't using WPF yet, so it's a good time to start learning.  I think you will find it easier using C# to learn it instead of doing managed code with C++. </p>\n",
+      "upVoteCount": 0,
+      "downVoteCount": 0
+    },
+    {
+      "id": 91415,
+      "postId": 4347,
+      "body": "<p>I'd never go down the Silverlight, Flash/Flex or any similar route. It does look nice, but the main problem is that the code of the engine that runs it is completely closed-box and controlled by a single company. Take, for example 64bit versions of both of those. If some new platform emerges, you won't be able to migrate your existing code to it.</p>\n",
+      "upVoteCount": 2,
+      "downVoteCount": 1
+    },
+    {
+      "id": 241696,
+      "postId": 4347,
+      "body": "<p>There are plenty of online Win32 tutorials: </p>\n\n<p><a href=\"http://www.zeusedit.com/forum/viewtopic.php?t=1218\" rel=\"nofollow noreferrer\">http://www.zeusedit.com/forum/viewtopic.php?t=1218</a></p>\n\n<p>There are plenty of compilers to choose from: </p>\n\n<p><a href=\"http://www.zeusedit.com/forum/viewtopic.php?t=238\" rel=\"nofollow noreferrer\">http://www.zeusedit.com/forum/viewtopic.php?t=238</a></p>\n\n<p>I would also recommend getting the <strong>Borland Win32 SDK</strong> documentation in WinHelp file format:</p>\n\n<p><a href=\"http://www.zeusedit.com/forum/viewtopic.php?t=7\" rel=\"nofollow noreferrer\">http://www.zeusedit.com/forum/viewtopic.php?t=7</a></p>\n\n<p>It only covers the bare basics of the Win32, but when starting, this can be helpful as it is less daunting and less bloated than the MSDN.</p>\n",
+      "upVoteCount": 3,
+      "downVoteCount": 0
+    },
+    {
+      "id": 7937895,
+      "postId": 4347,
+      "body": "<p>Get your basics right first. Best tutorial I've found is: <a href=\"http://winprog.org/tutorial/start.html\" rel=\"nofollow\">http://winprog.org/tutorial/start.html</a>  </p>\n\n<p>After that, although the homepage is hatefully distasteful, the tutorial pages are good in content and aesthetics: <a href=\"http://www.tenouk.com/cplusmfcdotnet.html\" rel=\"nofollow\">http://www.tenouk.com/cplusmfcdotnet.html</a>  </p>\n\n<p>Then of course there's <a href=\"http://msdn.microsoft.com/en-us/library/aa751972%28v=vs.85%29.aspx\" rel=\"nofollow\">MSDN</a>.</p>\n",
+      "upVoteCount": 0,
+      "downVoteCount": 0
+    },
+    {
       "id": 5026,
       "postId": 4850,
       "body": "<p>Within your overridden ProcessCmdKey how are you determining which key has been pressed?</p>\n\n<p>The value of keyData (the second parameter) will change dependant on the key pressed and any modifier keys, so, for example, pressing the left arrow will return code 37, shift-left will return 65573, ctrl-left 131109 and alt-left 262181.</p>\n\n<p>You can extract the modifiers and the key pressed by ANDing with appropriate enum values:</p>\n\n<pre><code>protected override bool ProcessCmdKey(ref Message msg, Keys keyData)\n{\n    bool shiftPressed = (keyData &amp; Keys.Shift) != 0;\n    Keys unmodifiedKey = (keyData &amp; Keys.KeyCode);\n\n    // rest of code goes here\n}\n</code></pre>\n",
@@ -528,27 +563,6 @@
       "id": 5645,
       "postId": 5527,
       "body": "<p>C# syntax is so close to Java (and better in some ways) that you might as well learn C# instead of J#.  And since C# is more widely used, you can easily find Java --> C# tutorials on google or check out <a href=\"http://www.asp.net/learn\" rel=\"nofollow noreferrer\">http://www.asp.net/learn</a> and watch some videos.</p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 0
-    },
-    {
-      "id": 7557,
-      "postId": 5527,
-      "body": "<p>Instead of J#, I would rather prefer IKVM (<a href=\"http://www.ikvm.net/\" rel=\"nofollow noreferrer\">http://www.ikvm.net/</a>) to convert my JARs to .NET assemblies as well as access Java APIs in C#.</p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 0
-    },
-    {
-      "id": 16755,
-      "postId": 5527,
-      "body": "<p>Strongly agree that syntactically C# beats Java hands down, so there is really no reason to lament the demise of j#.  Now trying to get c# compiling to Java bytecode might be an interesting move as Sun's hotspot jvm is great software.</p>\n\n<p>Or, for a bit of fun with what might well become the next generation of Java, how about <a href=\"http://www.scala-lang.org/node/168\" rel=\"nofollow noreferrer\">Scala on the CLR</a>...</p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 2
-    },
-    {
-      "id": 29289,
-      "postId": 5527,
-      "body": "<p>I don't think it's a matter of which language is better. In the .NET world there are some inconsistencies between the libraries different languages provide. There are certain functionality that is available in VB.NET that you might like to use from C# but can't. I remember I had to use J# to use some ZIP libraries that were not available in any other language in .NET.</p>\n",
       "upVoteCount": 1,
       "downVoteCount": 0
     },
@@ -630,69 +644,6 @@
       "downVoteCount": 1
     },
     {
-      "id": 7752,
-      "postId": 5916,
-      "body": "<p>Eclipse does some of this in Java (or PHP with plugins) on its own. Allows you to fold functions and such. I tend to like it. If I know what a function does and I am not working on it, I dont need to look at it.</p>\n",
-      "upVoteCount": 0,
-      "downVoteCount": 0
-    },
-    {
-      "id": 7767,
-      "postId": 5916,
-      "body": "<p>9 out of 10 times, code folding means that you have failed to use the <a href=\"http://en.wikipedia.org/wiki/Separation_of_concerns\" rel=\"noreferrer\">SoC principle</a> for what its worth.<br />\nI more or less feel the same thing about partial classes. If you have a piece of code you think is too big you need to chop it up in manageable (and reusable) parts, not hide or split it up.<br />It will bite you the next time someone needs to change it, and cannot see the logic hidden in a 250 line monster of a method.<br />\n<br />\nWhenever you can, pull some code out of the main class, and into a helper or factory class.\n<br /></p>\n\n<pre><code>foreach (var item in Items)\n{\n    //.. 100 lines of validation and data logic..\n}\n</code></pre>\n\n<p>is not as readable as</p>\n\n<pre><code>foreach (var item in Items)\n{\n    if (ValidatorClass.Validate(item))\n        RepositoryClass.Update(item);\n}\n</code></pre>\n\n<p><br />\n<br />\nMy $0.02 anyways.</p>\n",
-      "upVoteCount": 37,
-      "downVoteCount": 1
-    },
-    {
-      "id": 9049,
-      "postId": 5916,
-      "body": "<p>Regions must never be used inside methods. They may be used to group methods but this must be handled with extreme caution so that the reader of the code does not go insane. There is no point in folding methods by their modifiers. But sometimes folding may increase readability. For e.g. grouping some methods that you use for working around some issues when using an external library and you won't want to visit too often may be helpful. But the coder must always seek for solutions like wrapping the library with appropriate classes in this particular example. When all else fails, use folding for improving readibility.</p>\n",
-      "upVoteCount": 2,
-      "downVoteCount": 0
-    },
-    {
-      "id": 9053,
-      "postId": 5916,
-      "body": "<p>I think that it's a useful tool, when used properly. In many cases, I feel that methods and enumerations and other things that are often folded should be little black boxes. Unless you must look at them for some reason, their contents don't matter and should be as hidden as possible. However, I never fold private methods, comments, or inner classes. Methods and enums are really the only things I fold.</p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 0
-    },
-    {
-      "id": 9063,
-      "postId": 5916,
-      "body": "<p>My approach is similar to a few others here, using regions to organize code blocks into constructors, properties, events, etc.</p>\n\n<p>There's an excellent set of VS.NET macros by Roland Weigelt available from his blog entry, <a href=\"http://weblogs.asp.net/rweigelt/archive/2003/07/06/9741.aspx\" rel=\"nofollow noreferrer\">Better Keyboard Support for #region ... #endregion</a>.  I've been using these for years, mapping ctrl+. to collapse the current region and ctrl++ to expand it.  Find that it works a lot better that the default VS.NET functionality which folds/unfolds everything.</p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 0
-    },
-    {
-      "id": 14568,
-      "postId": 5916,
-      "body": "<p>The <a href=\"https://blog.codinghorror.com/the-problem-with-code-folding/\" rel=\"nofollow noreferrer\">Coding Horror</a> article actual got me thinking about this as well.</p>\n\n<p>Generally, I large classes I will put a region around the member variables, constants, and properties to reduce the amount of text I have to scroll through and leave everything else outside of a region. On forms I will generally group things into \"member variables, constants, and properties\", form functions, and event handlers. Once again, this is more so I don't have to scroll through a lot of text when I just want to review some event handlers.</p>\n",
-      "upVoteCount": 0,
-      "downVoteCount": 0
-    },
-    {
-      "id": 25984,
-      "postId": 5916,
-      "body": "<p>Emacs has a folding minor mode, but I only fire it up occasionally. Mostly when I'm working on some monstrosity inherited from another physicist who evidently had less instruction or took less care about his/her coding practices. </p>\n",
-      "upVoteCount": 0,
-      "downVoteCount": 0
-    },
-    {
-      "id": 26003,
-      "postId": 5916,
-      "body": "<p>This is just one of those silly discussions that lead to nowhere. If you like regions, use them. If you don't, configure your editor to turn them off. There, everybody is happy.</p>\n",
-      "upVoteCount": 3,
-      "downVoteCount": 1
-    },
-    {
-      "id": 33023,
-      "postId": 5916,
-      "body": "<p>Using regions (or otherwise folding code) <strong>should</strong> have nothing to do with code smells (or hiding them) or any other idea of hiding code you don't want people to \"easily\" see.</p>\n\n<p>Regions and code folding is really all about providing a way to easily group sections of code that can be collapsed/folded/hidden to minimize the amount of extraneous \"noise\" around what you are currently working on. If you set things up correctly (meaning actually name your regions something useful, like the name of the method contained) then you can collapse everything except for the function you are currently editing and still maintain some level of context without having to actually see the other code lines.</p>\n\n<p>There probably should be some best practice type guidelines around these ideas, but I use regions extensively to provide a standard structure to my code files (I group events, class-wide fields, private properties/methods, public properties/methods). Each method or property also has a region, where the region name is the method/property name. If I have a bunch of overloaded methods, the region name is the full signature and then that entire group is wrapped in a region that is just the function name.</p>\n",
-      "upVoteCount": 0,
-      "downVoteCount": 0
-    },
-    {
       "id": 8054,
       "postId": 8042,
       "body": "<p>One problem I can see is that, in a large company, this pattern could allow the code to become difficult (if not impossible) for anyone to understand and use. If multiple developers are constantly adding their own methods to existing classes, separate from those classes (and, God help us all, to BCL classes even), I could see a code base spinning out of control rather quickly.</p>\n\n<p>Even at my own job, I could see this happening, with my PM's desire to add every bit of code that we work on to either the UI or the data access layer, I could totally see him insisting on 20 or 30 methods being added to System.String that are only tangentially-related to string handling.</p>\n",
@@ -718,6 +669,55 @@
       "postId": 8042,
       "body": "<p>Ouch. Please don't extend Interfaces.<br>\nAn interface is a clean contract that a class should implement, and your usage of said classes <strong>must</strong> be restricted to what is in the core Interface for this to work correctly.</p>\n\n<p>That is why you always declare the interface as the type instead of the actual class.</p>\n\n<pre><code>IInterface variable = new ImplementingClass();\n</code></pre>\n\n<p>Right?</p>\n\n<p>If you really need a contract with some added functionality, abstract classes are your friends.</p>\n",
       "upVoteCount": 1,
+      "downVoteCount": 0
+    },
+    {
+      "id": 13514,
+      "postId": 8042,
+      "body": "<p>There is nothing wrong with extending interfaces, in fact that is how LINQ works to add the extension methods to the collection classes.</p>\n\n<p>That being said, you really should only do this in the case where you need to provide the same functionality across all classes that implement that interface and that functionality is not (and probably should not be) part of the \"official\" implementation of any derived classes. Extending an interface is also good if it is just impractical to write an extension method for every possible derived type that requires the new functionality.</p>\n",
+      "upVoteCount": 2,
+      "downVoteCount": 0
+    },
+    {
+      "id": 13563,
+      "postId": 8042,
+      "body": "<p>I see separating the domain/model and UI/view functionality using extension methods as a good thing, especially since they can reside in separate namespaces.</p>\n\n<p>For example:</p>\n\n<pre><code>namespace Model\n{\n    class Person\n    {\n        public string Title { get; set; }\n        public string FirstName { get; set; }\n        public string Surname { get; set; }\n    }\n}\n\nnamespace View\n{\n    static class PersonExtensions\n    {\n        public static string FullName(this Model.Person p)\n        {\n            return p.Title + \" \" + p.FirstName + \" \" + p.Surname;\n        }\n\n        public static string FormalName(this Model.Person p)\n        {\n            return p.Title + \" \" + p.FirstName[0] + \". \" + p.Surname;\n        }\n    }\n}\n</code></pre>\n\n<p>This way extension methods can be used similarly to XAML data templates. You can't access private/protected members of the class but it allows the data abstraction to be maintained without excessive code duplication throughout the application.</p>\n",
+      "upVoteCount": 3,
+      "downVoteCount": 0
+    },
+    {
+      "id": 14273,
+      "postId": 8042,
+      "body": "<p>I see a lot of people advocating using a base class to share common functionality. Be careful with this - you should favor composition over inheritance. Inheritance should only be used for polymorphism, when it makes sense from a modelling point of view. It is not a good tool for code reuse.</p>\n\n<p>As for the question: Be ware of the limitations when doing this - for example in the code shown, using an extension method to implement GetChildren effectively 'seals' this implementation and doesn't allow any IHaveChildren impl to provide its own if needed. If this is OK, then I dont mind the extension method approach that much. It is not set in stone, and can usually be easily refactored when more flexibility is needed later.</p>\n\n<p>For greater flexibility, using the strategy pattern may be preferable. Something like:</p>\n\n<pre><code>public interface IHaveChildren \n{\n    string ParentType { get; }\n    int ParentId { get; }\n}\n\npublic interface IChildIterator\n{\n    IEnumerable&lt;IChild&gt; GetChildren();\n}\n\npublic void DefaultChildIterator : IChildIterator\n{\n    private readonly IHaveChildren _parent;\n\n    public DefaultChildIterator(IHaveChildren parent)\n    {\n        _parent = parent; \n    }\n\n    public IEnumerable&lt;IChild&gt; GetChildren() \n    { \n        // default child iterator impl\n    }\n}\n\npublic class Node : IHaveChildren, IChildIterator\n{ \n    // *snip*\n\n    public IEnumerable&lt;IChild&gt; GetChildren()\n    {\n        return new DefaultChildIterator(this).GetChildren();\n    }\n}\n</code></pre>\n",
+      "upVoteCount": 2,
+      "downVoteCount": 0
+    },
+    {
+      "id": 38494,
+      "postId": 8042,
+      "body": "<p>I think the judicious use of extension methods put interfaces on a more equatable position with (abstract) base classes.</p>\n\n<p><br/>\n<strong>Versioning.</strong> One advantage base classes have over interfaces is that you can easily add new virtual members in a later version, whereas adding members to an interface will break implementers built against the old version of the library. Instead, a new version of the interface with the new members needs to be created, and the library will have to work around or limit access to legacy objects only implementing the original interface.</p>\n\n<p>As a concrete example, the first version of a library might define an interface like so:</p>\n\n<pre><code>public interface INode {\n  INode Root { get; }\n  List&lt;INode&gt; GetChildren( );\n}\n</code></pre>\n\n<p>Once the library has released, we cannot modify the interface without breaking current users. Instead, in the next release we would need to define a new interface to add additional functionalty:</p>\n\n<pre><code>public interface IChildNode : INode {\n  INode Parent { get; }\n}\n</code></pre>\n\n<p>However, only users of the new library will be able to implement the new interface. In order to work with legacy code, we need to adapt the old implementation, which an extension method can handle nicely:</p>\n\n<pre><code>public static class NodeExtensions {\n  public INode GetParent( this INode node ) {\n    // If the node implements the new interface, call it directly.\n    var childNode = node as IChildNode;\n    if( !object.ReferenceEquals( childNode, null ) )\n      return childNode.Parent;\n\n    // Otherwise, fall back on a default implementation.\n    return FindParent( node, node.Root );\n  }\n}\n</code></pre>\n\n<p>Now all users of the new library can treat both legacy and modern implementations identically.</p>\n\n<p><br/>\n<strong>Overloads.</strong> Another area where extension methods can be useful is in providing overloads for interface methods. You might have a method with several parameters to control its action, of which only the first one or two are important in the 90% case. Since C# does not allow setting default values for parameters, users either have to call the fully parameterized method every time, or every implementation must implement the trivial overloads for the core method.</p>\n\n<p>Instead extension methods can be used to provide the trivial overload implementations:</p>\n\n<pre><code>public interface ILongMethod {\n  public bool LongMethod( string s, double d, int i, object o, ... );\n}\n\n...\npublic static LongMethodExtensions {\n  public bool LongMethod( this ILongMethod lm, string s, double d ) {\n    lm.LongMethod( s, d, 0, null );\n  }\n  ...\n}\n</code></pre>\n\n<p><br/>\nPlease note that both of these cases are written in terms of the operations provided by the interfaces, and involve trivial or well-known default implementations. That said, you can only inherit from a class once, and the targeted use of extension methods can provide a valuable way to deal with some of the niceties provided by base classes that interfaces lack :)</p>\n\n<hr>\n\n<p><strong>Edit:</strong> A related post by Joe Duffy: <a href=\"http://joeduffyblog.com/2010/02/09/extension-methods-as-default-interface-method-implementations/\" rel=\"nofollow noreferrer\">Extension methods as default interface method implementations</a></p>\n",
+      "upVoteCount": 9,
+      "downVoteCount": 0
+    },
+    {
+      "id": 206325,
+      "postId": 8042,
+      "body": "<p>Rob Connery (Subsonic and MVC Storefront) implemented an IRepository-like pattern in his Storefront application. It's not quite the pattern above, but it does share some similarities.</p>\n\n<p>The data layer returns IQueryable which permits the consuming layer to apply filtering and sorting expression on top of that. The bonus is being able to specify a single GetProducts method, for example, and then decide appropriately in the consuming layer how you want that sorting, filtering or even just a particular range of results.</p>\n\n<p>Not a traditional approach, but very cool and definitely a case of DRY.</p>\n",
+      "upVoteCount": 1,
+      "downVoteCount": 0
+    },
+    {
+      "id": 1859130,
+      "postId": 8042,
+      "body": "<p>I needed to solve something similar:\nI wanted to have a List&lt;IIDable&gt; passed to the extensions function where IIDable is an interface that has a long getId() function.\nI tried using GetIds(this List&lt;IIDable&gt; bla) but the compiler didn't allow me to do so.\nI used templates instead and then type casted inside the function to the interface type. I needed this function for some linq to sql generated classes. </p>\n\n<p>I hope this helps :)</p>\n\n<pre><code>    public static List&lt;long&gt; GetIds&lt;T&gt;(this List&lt;T&gt; original){\n        List&lt;long&gt; ret = new List&lt;long&gt;();\n        if (original == null)\n            return ret;\n\n        try\n        {\n            foreach (T t in original)\n            {\n                IIDable idable = (IIDable)t;\n                ret.Add(idable.getId());\n            }\n            return ret;\n        }\n        catch (Exception)\n        {\n            throw new Exception(\"Class calling this extension must implement IIDable interface\");\n        }\n</code></pre>\n",
+      "upVoteCount": 0,
+      "downVoteCount": 0
+    },
+    {
+      "id": 2025433,
+      "postId": 8042,
+      "body": "<p>A little bit more. </p>\n\n<p>If multiple interfaces have the same extension method signature, you would need to explicitly convert the caller to one interface type and then call the method. E.g.</p>\n\n<pre><code>((IFirst)this).AmbigousMethod()\n</code></pre>\n",
+      "upVoteCount": 2,
       "downVoteCount": 0
     },
     {
@@ -798,6 +798,13 @@
       "downVoteCount": 0
     },
     {
+      "id": 304718,
+      "postId": 11500,
+      "body": "<p>A general thing when using ASP.NET and Ajax (any Ajax library) together is to avoid elephanting your Page_Load and Page_Init (and their method counterparts) things since these will be executing on every Ajax Request.</p>\n\n<p>When that is said I would seriously ditch ASP.NET AJAX and use <em>anything</em> else...</p>\n\n<p>Anthem.NET, AjaxPRO.NET, jQuery or whatever else than ASP.NET AJAX...</p>\n\n<p>Of course I would use <a href=\"http://ra-ajax.org\" rel=\"nofollow noreferrer\">Ra-Ajax</a> myself since that's my project. But then again I am biased...</p>\n",
+      "upVoteCount": 2,
+      "downVoteCount": 1
+    },
+    {
       "id": 14391,
       "postId": 14389,
       "body": "<p>Use a subrange of <code>[\\u0000-\\uFFFF]</code> for what you want.</p>\n\n<p>You can also use the <code>re.UNICODE</code> compile flag. <a href=\"http://docs.python.org/lib/re-syntax.html\" rel=\"nofollow noreferrer\">The docs</a> say that if <code>UNICODE</code> is set, <code>\\w</code> will match the characters <code>[0-9_]</code> plus whatever is classified as alphanumeric in the Unicode character properties database. </p>\n\n<p>See also <a href=\"http://coding.derkeiler.com/Archive/Python/comp.lang.python/2004-05/2560.html\" rel=\"nofollow noreferrer\">http://coding.derkeiler.com/Archive/Python/comp.lang.python/2004-05/2560.html</a>.</p>\n",
@@ -837,48 +844,6 @@
       "postId": 14582,
       "body": "<p>I use TortoiseSVN with VFP, and it mostly-seamlessly handles the case flipping. The only time it doesn't is if I have the file open in the IDE when I try to do the commit: the file lock VFP holds confuses it. Is this where your problem comes in, or are there other issues?</p>\n\n<p>I did a presentation at FoxForward last year about using VFP with Subversion: most of the presentation dealt with the command line, but there are a couple of slides at the end that have links to tools that help you work with Subversion in VFP. <a href=\"http://docs.google.com/Presentation?id=dfxkh6x4_3ghnqc4\" rel=\"nofollow noreferrer\">http://docs.google.com/Presentation?id=dfxkh6x4_3ghnqc4</a></p>\n",
       "upVoteCount": 2,
-      "downVoteCount": 0
-    },
-    {
-      "id": 63075,
-      "postId": 14582,
-      "body": "<p>Kit, you comment above that VFP's binary-based source files are tough to work with in Subversion. The link I gave above mentions a couple of tools to make it easier, but the one I work with is Christof Wollenhaupt's TwoFox utility -- it converts a VFP project to text-only. You have to run it manually, but I don't have a problem with that.</p>\n\n<p><a href=\"http://www.foxpert.com/docs/cvs.en.htm\" rel=\"nofollow noreferrer\">http://www.foxpert.com/docs/cvs.en.htm</a></p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 0
-    },
-    {
-      "id": 581839,
-      "postId": 14582,
-      "body": "<p>I believe the random upper and lower case on the extensions isn't random at all.\nI remember testing on this. If you modify a program from the project manager.\nBy clicking on the modify button let's say. And then save the changes the extension is lower case. If you do a modify command from the command window and save the changes the extension is upper case. Apparently the coders at Microsoft didn't worry about the extension case being the same.</p>\n",
-      "upVoteCount": 2,
-      "downVoteCount": 1
-    },
-    {
-      "id": 2877580,
-      "postId": 14582,
-      "body": "<p>Windows does support case sensitivity, but you must send it the correct POSIX flags on CreateFile from the Windows API!  A registry key may need changed (SFU/Tools for Unix and Ultimate Windows 7 has this registry entry already set so windows supports case sensitive file names).</p>\n\n<p>Windows is designed off of Unix, but things such as Explorer.exe and other programs are designed to disallow case sensitivity for backwards compatibility and security (mostly when dealing with dos executing notepad.exe vs. NOTEPAD.EXE, where all caps is a virus or malware).</p>\n\n<p>But Vista+ has security attributes which makes this obsolete.</p>\n\n<p>TortiousSVN just doesn't support passing this posix flag while making and renaming files.</p>\n",
-      "upVoteCount": 4,
-      "downVoteCount": 0
-    },
-    {
-      "id": 3391028,
-      "postId": 14582,
-      "body": "<p>Nope you sure can't. SVN is case-sensitive unless you were to rewrite the code somehow ... it <em>is</em> open-source.</p>\n",
-      "upVoteCount": 0,
-      "downVoteCount": 0
-    },
-    {
-      "id": 51399368,
-      "postId": 14582,
-      "body": "<p>We had a similar problem and I <strong>found a better solution</strong> than the ones exposed here, so I'm sharing it now:</p>\n\n<ul>\n<li><p>For <strong>commits done manualy</strong>, now TortoiseSVN fixes the case of the file names automatically: it renames the local files to match the case of the versioned files (just by opening the commit window in that path), so there should be <strong>no problem</strong> with that.</p></li>\n<li><p>For <strong>automated commits</strong> you cannot use TortoiseSVN, as it requires you to manually confirm the commit (it opens the commit window with a specific message, but you still have to click ok). But if you directly use Subversion (svn) to make an automated commit, then you will have the case-sensitive issue on that commit, as Subversion is still case-sensitive...</p></li>\n</ul>\n\n<p>How to solve this for automated commits? Well, I tried a mixed approach: creating a batch file called <code>FixCaseSensitiveFileNames.bat</code> that you may call passing the path you want to fix before the commit, for example: <code>call FixCaseSensitiveFileNames.bat C:\\MyRepo</code>. The batch file opens TortoiseSVN for a manual commit, and that automatically fixes the file names, but then it closes the commit window after a predefined pause, so you can continue with the automated commit with the case-sensitive file names already fixed. The pause is emulated with a local ping, and you can change the duration by changing the <code>-n</code> argument, which is the number of tries. If you don't make a long enough pause, it exist the risk to close the TortoiseSVN window before it makes its magic fix. Here it is <strong>the code of the batch file</strong>:</p>\n\n<pre><code>@echo off\nREM *** This BAT uses TortoiseSVN to fix the case-sensitive names of the files in Subversion\nREM *** Call it before an automated commit. The Tortoise commit fixes this issue for manual commits,\nREM *** so the trick is opening the commit window and close it automatically after a pause (with ping).\nREM *** %1 = path to be fixed\n\nstart TortoiseProc.exe /command:commit /path:\"%1\"\nping localhost -n 10 &gt;nul\ntaskkill /im TortoiseProc.exe\n</code></pre>\n\n<p>This totally solved the issue for our automated daily build process. The only problem I see is a window will open for a few seconds, which was not a problem for our daily build, but if that is a problem for you there could be workarounds too...</p>\n",
-      "upVoteCount": 0,
-      "downVoteCount": 0
-    },
-    {
-      "id": 59732964,
-      "postId": 14582,
-      "body": "<p>TortoiseSVN has a <a href=\"https://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-rename.html#tsvn-dug-rename-repair\" rel=\"nofollow noreferrer\">Repairing File Renames</a> feature. It requires manual intervention and it actually issues a file rename operation to be committed but nonetheless addresses current use case by keeping file history.</p>\n",
-      "upVoteCount": 0,
       "downVoteCount": 0
     },
     {
@@ -1008,27 +973,6 @@
       "downVoteCount": 0
     },
     {
-      "id": 690148,
-      "postId": 16113,
-      "body": "<p>I'd go for awstats. I was getting my site usage reports from awstats for a while and then turned on Google Analytics to do this job as well. And, surprisingly, Google turned out to be rather unreliable.\nI get usually have no visits from a country like Finland and once I <em>knew for sure</em> a friend of mine visited the site from Finland and what happend? Awstats says - hey, you had a visit from Finland! And Google Analytics? I move my mouse over Finland and the bubble says \"visits: 0\". After that I could never quite make myself trust it again.</p>\n",
-      "upVoteCount": 5,
-      "downVoteCount": 0
-    },
-    {
-      "id": 1833012,
-      "postId": 16113,
-      "body": "<p>Try out XpoLog log analysis for web servers it provide log analysis platform to anlyze multiple web and application servers for centrelized location and create automatic reports and monitors for applications health. find it at <a href=\"http://www.xpolog.com\" rel=\"nofollow noreferrer\">XpoLog log analysis</a></p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 0
-    },
-    {
-      "id": 8822112,
-      "postId": 16113,
-      "body": "<p>My old company always used <a href=\"http://www.weblogexpert.com/\" rel=\"nofollow\">WebLog Expert</a>. There is a free 'lite' version. Its still has on-going development and can be combined with geo-location databases if you use one of the paid versions. </p>\n",
-      "upVoteCount": 2,
-      "downVoteCount": 0
-    },
-    {
       "id": 21240,
       "postId": 20034,
       "body": "<p>I don't work in the games industry, but it sounds to me like this will do the same thing for video games as the Quake and Half-Life engines did. That is they will promote getting young developers interested in the industry and promote development of indie games. </p>\n\n<p>From what I can tell, video game companies do not reuse most of their code, because if they do it implies that their new game is just a rehash of an old one. Everyone wants a cool new physics engine, better graphics, new ways to play the game. Most video game engines and frameworks are made for a specific scenario and thus are not very bendable to other situations. </p>\n\n<p>Maybe Darkstar will get it right though, but I kinda doubt it, since generalizing only works for so much.</p>\n",
@@ -1036,52 +980,31 @@
       "downVoteCount": 2
     },
     {
-      "id": 21263,
-      "postId": 20034,
-      "body": "<blockquote>\n  <p>From what I can tell, video game companies do not reuse most of their code, because if they do it implies that their new game is just a rehash of an old one.</p>\n</blockquote>\n\n<p>Um... if you're referring to the long tail of video game companies, maybe. Within a company that has had a series of successful games, there is usually some modicum of reuse. Major hardware changes can result in ditching a lot of work, but it really depends on the company.</p>\n",
-      "upVoteCount": 2,
-      "downVoteCount": 0
-    },
-    {
-      "id": 151218,
-      "postId": 20034,
-      "body": "<p>Sounds like useless tech to me. The MMO world is controlled by a few big game companies that already have their own tech in place. Indie game developers love trying to build MMO's and sometimes they do, but those games rarely gain traction. Larger companies breaking into the MMO world would probably license \"proven\" technology, or extend their own.</p>\n\n<p>Game companies reuse vast quantities of code from game to game. Most/many game companies have developed their own tech internally, and use it on every game they produce. Occasionally, they will do something like replace their physics code with a 3rd party physics engine. If their internal code base (game engine, design tools, internal pipeline) starts to age too much, or become unwieldy, they might switch to one of the big game engines like Unreal. Even then, major chunks of code will continue to be re-used from game to game.</p>\n",
-      "upVoteCount": 3,
-      "downVoteCount": 0
-    },
-    {
-      "id": 159845,
-      "postId": 20034,
-      "body": "<p>It sounds like fun to design and code, but I think it ultimately comes down to <a href=\"http://www.joelonsoftware.com/articles/fog0000000018.html\" rel=\"nofollow noreferrer\">useless abstractions</a> (to steal from Joel).</p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 0
-    },
-    {
-      "id": 160228,
-      "postId": 20034,
-      "body": "<p>It's very common for games to reuse \"game engines,\" even those from third-parties. This sounds like another step in that direction.</p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 0
-    },
-    {
-      "id": 485304,
-      "postId": 20034,
-      "body": "<p><strong>Edit: This was written before Oracle bought Sun and started a rampage to kill everything that does not make them a billion $ per day. See the comments for an OSS Fork.</strong> <em>I still stand by my opinion that stuff like that (MMO Middleware) is realistic, you just need a company that doesn't suck behind it.</em></p>\n\n<p>The Market may be dominated by few large games, but that does not mean that there is not a lot of room for more niche games. Lets face it: If you want to reach 100.000+ players, you're ending up building your own technology stack, at least for the critical core. That's what CCP did for EVE Online (<a href=\"http://myeve.eve-online.com/devblog.asp?a=blog&amp;bid=584\" rel=\"noreferrer\">StacklessIO</a>), that's what Blizzard did for World of Warcraft (although they do use many third-party libraries), that's what Mythic did for Warhammer Online (although they are based on Gamebryo).</p>\n\n<p>However, if you aim to be a small, niche MMO (like the dozens of Free-to-Play/Itemshop MMOs), then getting the Network stuff right is just insanely hard, data consistency is even harder and scalability is the biggest b*tch.</p>\n\n<p>But game technology is not your only problem - you also need to tackle Billing. Credit Card only? Have fun selling in Germany then, people there want ELV. That's where you need a reliable billing provider, but you still need to wire in the billing application with your accounts to make sure that accounts are blocked/reactivated when the billing fails.</p>\n\n<p>There are some companies already offering \"MMO Infratructure Services\" (i.e. <a href=\"http://www.e-eis.com/cms/front_content.php?changelang=2\" rel=\"noreferrer\">Arvato's EEIS</a>), but the bottom line is: Stuff like Project Darkstar IS realistic, but assuming that you can build a Multi-Billion-MMO entirely on a Third Party Stack is optimistic, possibly idealistic.</p>\n\n<p>But then again, entirely inventing all of the technology is even more stupid - use the Third Party stuff that you need (i.e. Billing, Font Rendering, Audio Output...), but <a href=\"http://www.codinghorror.com/blog/archives/001172.html\" rel=\"noreferrer\">write the stuff that really makes or breaks your business</a> (i.e. Network stack, User interface etc.) on your own. (Note: Jeff's posting may be <a href=\"http://damilare.net/random-talks/dare-obasanjo-vs-jeff-atwood-on-html-validation/\" rel=\"noreferrer\">a bit flawed</a>, but the overall direction is correct IMHO.)</p>\n\n<p>Addendum: Also, the game industry does license and reuse engines a lot. The most prominent game Engines are the <a href=\"http://en.wikipedia.org/wiki/Unreal_Engine\" rel=\"noreferrer\">Unreal Engine</a>, <a href=\"http://en.wikipedia.org/wiki/Source_Engine\" rel=\"noreferrer\">Source Engine</a> and <a href=\"http://en.wikipedia.org/wiki/Id_tech\" rel=\"noreferrer\">id Tech</a>, which fuel dozens, if not hundreds of games. But there are some lesser-known (outside of the industry) engines. There is <a href=\"http://en.wikipedia.org/wiki/Gamebryo\" rel=\"noreferrer\">Gamebryo</a>, the Middleware behind games like Civilization 4 and Fallout 3, there was <a href=\"http://en.wikipedia.org/wiki/RenderWare\" rel=\"noreferrer\">RenderWare</a> that is now only EA-in-House, but used in games like Battlefield 2 or The Sims 3. There is the open source <a href=\"http://www.ogre3d.org/\" rel=\"noreferrer\">Ogre3d</a>, which was used in <a href=\"http://www.dtp-entertainment.com/en/games/game_detail.php?id=2973&amp;landid=1\" rel=\"noreferrer\">some</a> commercial <a href=\"http://www.venetica-game.com/\" rel=\"noreferrer\">titles</a>. If you're just looking for Sound, there's stuff like <a href=\"http://www.fmod.org/\" rel=\"noreferrer\">FMOD</a> or if you want to do font-rendering, why not give <a href=\"http://www.freetype.org/\" rel=\"noreferrer\">FreeType</a> a spin?</p>\n\n<p>What I'm saying is: Third-Party Engines/Middleware do exist, and they ARE being successfully used since more than a decade (I know for sure that id's Wolfenstein Engine was licensed to other companies, and that was 1992), even by big companies in multi-million-dollar titles. The important thing is the support, because a good engine with no help in case of an issue is pretty much worthless or at least very expensive if the developer has to spend their game-development-time with unneccessary debugging of the Engine.</p>\n\n<p>If the Darkstar folks manage to get the support side right and 2 or 3 higher profile titles out, I do believe it could succeed in opening the MMO market to a lot more smaller developers and indies.</p>\n",
-      "upVoteCount": 26,
-      "downVoteCount": 0
-    },
-    {
-      "id": 1148375,
-      "postId": 20034,
-      "body": "<p>I think it's a great thing to do.\nDevelopers not having to worry about all these things that project darkstar takes care of, and it's very easy to use.\nBut it's not all about just getting it to work and not having to learn everything about internet-communication, It's also about performance. Project darkstar has been under development for over 2 years and it keeps getting better,faster and more robust.</p>\n\n<p>I think it will be hard and probably not worth the time to write these things when aiming at a specific game, when technologies like this can be used instead. And you also get nice information during runtime telling you where in an application there's a cause of slowdown or deadlocks so you can improve that.</p>\n",
-      "upVoteCount": 1,
-      "downVoteCount": 0
-    },
-    {
       "id": 20678,
       "postId": 20675,
       "body": "<ul>\n<li><a href=\"http://www.w3schools.com/Vbscript/func_int.asp\" rel=\"noreferrer\">Int()</a></li>\n</ul>\n\n<blockquote>\n  <p>The Int function returns the integer part of a specified number.</p>\n</blockquote>\n\n<ul>\n<li><a href=\"http://www.w3schools.com/VBScript/func_cint.asp\" rel=\"noreferrer\">CInt()</a></li>\n</ul>\n\n<blockquote>\n  <p>The CInt function converts an expression to type Integer.</p>\n</blockquote>\n\n<p>And the best answer comes from <a href=\"http://msdn.microsoft.com/en-us/library/fctcwhw9(VS.85).aspx\" rel=\"noreferrer\">MSDN</a></p>\n\n<blockquote>\n  <p>CInt differs from the Fix and Int functions, which truncate, rather than round, the fractional part of a number. When the fractional part is exactly 0.5, the CInt function always rounds it to the nearest even number. For example, 0.5 rounds to 0, and 1.5 rounds to 2.</p>\n</blockquote>\n",
       "upVoteCount": 38,
+      "downVoteCount": 0
+    },
+    {
+      "id": 25613,
+      "postId": 20675,
+      "body": "<p>And, the most important difference (IME, at least)....is that CInt <a href=\"http://www.bellaonline.com/articles/art18651.asp\" rel=\"noreferrer\">overflows at 32,767</a>.</p>\n",
+      "upVoteCount": 18,
+      "downVoteCount": 0
+    },
+    {
+      "id": 360003,
+      "postId": 20675,
+      "body": "<p>Here is another difference:</p>\n\n<p>Script:</p>\n\n<pre><code>wscript.echo 40.91 * 100\nwscript.echo Int(40.91 * 100)\nwscript.echo CInt(40.91 * 100)\n</code></pre>\n\n<p>result:</p>\n\n<pre><code>4091\n4090   (????)\n4091\n</code></pre>\n\n<p>Any thoughts?</p>\n",
+      "upVoteCount": 4,
+      "downVoteCount": 0
+    },
+    {
+      "id": 4404489,
+      "postId": 20675,
+      "body": "<p>The usual answer for this issue is to manually force a re-rounding. This problem is as old as FORTRAN.</p>\n\n<p>Instead of </p>\n\n<pre><code>a = int(40.91 * 100)\n</code></pre>\n\n<p>Use</p>\n\n<pre><code>b = 40.91 * 100\na = int(b + 0.5)\n</code></pre>\n\n<p>Very old trick, still useful in Excel spreadsheets from time to time.</p>\n",
+      "upVoteCount": 5,
       "downVoteCount": 0
     }
   ]

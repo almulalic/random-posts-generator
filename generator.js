@@ -76,20 +76,20 @@ var PostComment = /** @class */ (function () {
 }());
 var Output = /** @class */ (function () {
     function Output(profiles, posts, comments) {
-        this.profiles = profiles;
+        this.profile = profiles;
         this.posts = posts;
         this.comments = comments;
     }
     Output.prototype.get = function () {
         return {
-            profiles: this.profiles,
+            profile: this.profile,
             posts: this.posts,
             comments: this.comments
         };
     };
     Output.prototype.ToJSON = function () {
         return JSON.stringify({
-            profiles: this.profiles,
+            profile: this.profile,
             posts: this.posts,
             comments: this.comments
         });
@@ -132,7 +132,7 @@ function GetPostsWithComments(profiles) {
                             var validPostCount = 1;
                             data.items.every(function (question, i) {
                                 if (question.answers.length != 0) {
-                                    posts.push(new Post(question.question_id, question.title, profiles[Math.round(Math.random() * profiles.length - 1)].name, question.body, question.up_vote_count, question.down_vote_count));
+                                    posts.push(new Post(question.question_id, question.title, profiles[Math.round(Math.random() * profiles.length - 1)].id, question.body, question.up_vote_count, question.down_vote_count));
                                     console.log("\nPost " + validPostCount + " u\u010Ditan..");
                                     console.log("\nUčitavam komentare...");
                                     var maxComments_1 = Math.round(Math.random() * 20);

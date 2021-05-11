@@ -84,7 +84,7 @@ class Profile {
 class Post {
   id: Number;
   title: String;
-  author: String;
+  author: Number;
   body: String;
   upVoteCount: Number;
   downVoteCount: Number;
@@ -92,7 +92,7 @@ class Post {
   constructor(
     id: Number,
     title: String,
-    author: String,
+    author: Number,
     body: String,
     upVoteCount: Number,
     downVoteCount: Number
@@ -123,19 +123,19 @@ class PostComment {
 }
 
 class Output {
-  profiles: Profile[];
+  profile: Profile[];
   posts: Post[];
   comments: PostComment[];
 
   constructor(profiles: Profile[], posts: Post[], comments: PostComment[]) {
-    this.profiles = profiles;
+    this.profile = profiles;
     this.posts = posts;
     this.comments = comments;
   }
 
   get() {
     return {
-      profiles: this.profiles,
+      profile: this.profile,
       posts: this.posts,
       comments: this.comments,
     };
@@ -143,7 +143,7 @@ class Output {
 
   ToJSON() {
     return JSON.stringify({
-      profiles: this.profiles,
+      profile: this.profile,
       posts: this.posts,
       comments: this.comments,
     });
@@ -193,7 +193,7 @@ async function GetPostsWithComments(profiles: Profile[]): Promise<[Post[], PostC
           new Post(
             question.question_id,
             question.title,
-            profiles[Math.round(Math.random() * profiles.length - 1)].name,
+            profiles[Math.round(Math.random() * profiles.length - 1)].id,
             question.body,
             question.up_vote_count,
             question.down_vote_count
